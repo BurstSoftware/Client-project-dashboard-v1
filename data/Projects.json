@@ -1,0 +1,31 @@
+{
+    "client1@example.com": [
+        {
+            "id": 1,
+            "name": "Home Renovation",
+            "start_date": "2025-01-01",
+            "end_date": "2025-06-30",
+            "budget": 50000,
+            "actual_cost": 35000,
+            "milestones": [
+                {"name": "Foundation", "date": "2025-02-01", "status": "Completed", "media": []},
+                {"name": "Framing", "date": "2025-03-15", "status": "In Progress", "media": []}
+            ],
+            "invoices": [{"id": "INV001", "amount": 10000, "status": "Paid"}]
+        }
+    ],
+    "client2@example.com": [
+        {
+            "id": 2,
+            "name": "Office Build",
+            "start_date": "2025-03-01",
+            "end_date": "2025-12-31",
+            "budget": 100000,
+            "actual_cost": 40000,
+            "milestones": [
+                {"name": "Site Prep", "date": "2025-04-01", "status": "Completed", "media": []}
+            ],
+            "invoices": [{"id": "INV002", "amount": 20000, "status": "Pending"}]
+        }
+    ]
+}
