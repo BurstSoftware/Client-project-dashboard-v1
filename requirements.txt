@@ -1,0 +1,4 @@
+streamlit
+streamlit_login_auth_ui
+plotly
+pandas
